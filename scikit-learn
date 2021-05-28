@@ -1,0 +1,3 @@
+=>> from sklearn import datasets # To Load scikit-learn's datasets
+    digits = datasets.load_digits() # To Load digits dataset
+    features = digits.data  # To Create features matrix
